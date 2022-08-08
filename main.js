@@ -7,7 +7,7 @@ function ifs(val,d){
         return ((0<val)?((val)+d+S(val)):"")
     }
     else{
-        return ((0<val)?((val.toFixed(2))+d+S(val)):"")
+        return ((0<val)?((val.toFixed(2))+d+S(val)):"0")
     }
 }
 function S(s){
@@ -52,14 +52,14 @@ function std(seconds){
     }
   
   }
-  (24*60*60)
+
 function main(){
-    let A=new Date("March 16, 2022 00:00:00").getTime();
-    let B=new Date("March 21, 2022 00:00:00").getTime();
-    let C=new Date("March 26, 2022 00:00:00").getTime();
-    let D=new Date("April 02, 2022 00:00:00").getTime();
-    let E=new Date("April 04, 2022 00:00:00").getTime();
-    let F=new Date("April 08, 2022 00:00:00").getTime();
+    let A=new Date("Augest 12, 2022 00:00:00").getTime();
+    let B=new Date("Augest 16, 2022 00:00:00").getTime();
+    let C=new Date("Augest 20, 2022 00:00:00").getTime();
+    let D=new Date("Augest 24, 2022 00:00:00").getTime();
+    let E=new Date("Augest 27, 2022 00:00:00").getTime();
+    let F=new Date("September 1, 2022 00:00:00").getTime();
     let a=[A,B,C,D,E,F]
     let now=new Date().getTime()
     t = []
