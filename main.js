@@ -73,6 +73,7 @@ function main(){
     for(i=0;i<6;i++){
         id(`g${i+1}`).innerHTML=i==0 ? 'no previous exam' : days[i]-days[i-1]
     }
+    
 
 }
 let timer=setInterval(main,1)
